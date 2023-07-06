@@ -2,7 +2,7 @@
     font-family: 'Spinnaker', sans-serif;
 }
 
-#visi_dan_misi, #foto-barang{
+#visi_dan_misi,#wisata_jembul{
     background-color: rgb(238, 247, 244);
 }
 
@@ -44,17 +44,15 @@ video.fillWidth {
     left: 50%;    
 }
 
-aside {
-    
+aside {    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /* filter: blur(8px); */
 }
 
-#foto-barang .row .thumb{    
-    width: 100%;
-    max-height: 100%;      
+.foto-perangkat{
+    width: 15rem;
 }
 
 aside#profil-perangkat-desa {
@@ -72,11 +70,23 @@ footer .text a{
 @media only screen and (max-width: 600px) {
 
     #profil-perangkat-desa .profile-pic{
-        padding-top : em;
+        /* padding-top : em; */
         padding-bottom : 1em;
     }
 
     .visi-misi {
         flex-direction : column;
+    }
+
+    .foto-perangkat {
+        width:  12rem !important;
+    }
+
+    .logo-jembul{
+        width: 10rem;
+    }
+
+    #visi_dan_misi h2 {
+        text-align: center;
     }
 }
