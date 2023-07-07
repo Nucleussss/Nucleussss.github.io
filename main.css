@@ -51,9 +51,9 @@ aside {
     /* filter: blur(8px); */
 }
 
-.foto-perangkat{
+/* .foto-perangkat{
     width: 15rem;
-}
+} */
 
 aside#profil-perangkat-desa {
     background-image: url('https://firebasestorage.googleapis.com/v0/b/project-capstone-c23-pr519.appspot.com/o/landing%20page%2Fgunung-sindoro.jpg?alt=media&token=81f6e894-ebb0-48c4-8a42-a1b631e6933b&_gl=1*13lkdi9*_ga*MTI3NDAzNzM2OC4xNjg1NjIxNzU4*_ga_CW55HF8NVT*MTY4NjMzMjU2Ny4yMy4xLjE2ODYzMzI5MjkuMC4wLjA.');
@@ -78,9 +78,9 @@ footer .text a{
         flex-direction : column;
     }
 
-    .foto-perangkat {
+    /* .foto-perangkat {
         width:  12rem !important;
-    }
+    } */
 
     .logo-jembul{
         width: 10rem;
